@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.consulta {
+    display: block;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+
+form {
+    margin-top: 70px;
+    padding-top: 28px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 300px;
+    min-width: 100px;
+}
+
+h1 {
+    padding-top: 28px;
+    text-align: center;
+    color: #ffff;
+}
+
+input {
+    display: block;
+    margin: auto;
+    width: calc(25% + 100px);
+    padding: 9px;
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+input[type='submit'] {
+    display: block;
+    margin: auto;
+    background-color: #239B56;
+    color: #FFFFFF;
+    width: calc(25% + 100px);
+    margin-top: 22px;
+    border: none;
+}
+
+#main-container {
+    margin: 150px auto;
+    width: 600px;
+    box-shadow: black;
+}
+
+.tabla {
+    display: block;
+    margin: auto;
+    background-color: #FF0000;
+}
+
+.tb {
+    width: 100%;
+    background-color: aliceblue;
+    border-collapse: collapse;
+    text-align: left;
+    border-color: #FF0000;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+.dato {
+    background-color: #FF0000;
+    border-color: white;
+}
+
+.text-dato {
+    color: white;
+}
